@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A8D54D8C-57E8-4904-893F-A0AB85ECA382}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{14851FDA-0992-49B9-8CFA-8064355B2E0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{2F2507E4-347B-4072-B32C-A630D799E8DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rydo.HttpClient", "src\Rydo.HttpClient\Rydo.HttpClient.csproj", "{1F91586D-D8B4-49BF-95AA-47F5CCB14533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rydo.HttpClient.Sample", "sample\Rydo.HttpClient.Sample\Rydo.HttpClient.Sample.csproj", "{0592A29F-905C-493A-A9B5-4E664D719CA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rydo.HttpClient.UnitTest", "test\Rydo.HttpClient.UnitTest\Rydo.HttpClient.UnitTest.csproj", "{1D9E12D7-9B71-445C-8024-A4F61CC97E2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F91586D-D8B4-49BF-95AA-47F5CCB14533} = {A8D54D8C-57E8-4904-893F-A0AB85ECA382}
+		{0592A29F-905C-493A-A9B5-4E664D719CA7} = {2F2507E4-347B-4072-B32C-A630D799E8DF}
+		{1D9E12D7-9B71-445C-8024-A4F61CC97E2E} = {14851FDA-0992-49B9-8CFA-8064355B2E0C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F91586D-D8B4-49BF-95AA-47F5CCB14533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F91586D-D8B4-49BF-95AA-47F5CCB14533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F91586D-D8B4-49BF-95AA-47F5CCB14533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F91586D-D8B4-49BF-95AA-47F5CCB14533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0592A29F-905C-493A-A9B5-4E664D719CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0592A29F-905C-493A-A9B5-4E664D719CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0592A29F-905C-493A-A9B5-4E664D719CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0592A29F-905C-493A-A9B5-4E664D719CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9E12D7-9B71-445C-8024-A4F61CC97E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9E12D7-9B71-445C-8024-A4F61CC97E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9E12D7-9B71-445C-8024-A4F61CC97E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9E12D7-9B71-445C-8024-A4F61CC97E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
